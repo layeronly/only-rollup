@@ -30,6 +30,7 @@ packages/contracts-bedrock/deployments/anvil
 .envrc
 .env
 .env*
+.envrc.example
 !.env.example
 !.envrc.example
 *.log
