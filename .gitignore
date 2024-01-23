@@ -27,6 +27,7 @@ packages/contracts-bedrock/deployments/anvil
 .idea/
 
 .secrets
+.envrc
 .env
 .env*
 !.env.example
