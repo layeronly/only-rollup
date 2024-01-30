@@ -339,8 +339,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(@types/node@20.10.8)(jsdom@23.2.0)
       wagmi:
-        specifier: ^2.2.1
-        version: 2.2.1(@tanstack/react-query@5.17.1)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
+        specifier: ^2.5.5
+        version: 2.5.5(@tanstack/react-query@5.17.1)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
 
   packages/core-utils:
     dependencies:
@@ -4139,6 +4139,7 @@ packages:
 
   /@motionone/vue@10.16.2:
     resolution: {integrity: sha512-7/dEK/nWQXOkJ70bqb2KyNfSWbNvWqKKq1C8juj+0Mg/AorgD8O5wE3naddK0G+aXuNMqRuc4jlsYHHWHtIzVw==}
+    deprecated: Motion One for Vue is deprecated. Use Oku Motion instead https://oku-ui.com/motion
     dependencies:
       '@motionone/dom': 10.16.2
       tslib: 2.6.2
@@ -6595,10 +6596,10 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@wagmi/connectors@4.1.4(@wagmi/core@2.2.1)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
-    resolution: {integrity: sha512-Mk/JnVs9pPd9cN/b5F+kHZMRU13yVf1zJwXNzSKpt7BOJQBqiFxJtmuZdRsNboEGEiPDFoEnzOzeAFi2xk3UGw==}
+  /@wagmi/connectors@4.1.12(@wagmi/core@2.6.3)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
+    resolution: {integrity: sha512-zqCJMOwpi8ssFjndVxVh3iUMwzcA7dPCjswhcy4xZyy1jm/VvGYC3o1wotq/gTCqUrz0SPIMGimZm4S6865b8A==}
     peerDependencies:
-      '@wagmi/core': 2.2.1
+      '@wagmi/core': 2.6.3
       typescript: '>=5.0.4'
       viem: 2.x
     peerDependenciesMeta:
@@ -6609,7 +6610,7 @@ packages:
       '@metamask/sdk': 0.14.1(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)
       '@safe-global/safe-apps-provider': 0.18.1(typescript@5.3.3)
       '@safe-global/safe-apps-sdk': 8.1.0(typescript@5.3.3)
-      '@wagmi/core': 2.2.1(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
+      '@wagmi/core': 2.6.3(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
       '@walletconnect/ethereum-provider': 2.11.0(react@18.2.0)
       '@walletconnect/modal': 2.6.2(react@18.2.0)
       typescript: 5.3.3
@@ -6665,8 +6666,8 @@ packages:
       - zod
     dev: true
 
-  /@wagmi/core@2.2.1(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
-    resolution: {integrity: sha512-eoTHG600lFpQyeofuo1nlAuTlI7rjduJK/yU4F8sLwjucROSE5RmD2OpQOkeEC3JGoXjrYxVPbY77PUD6ajzqw==}
+  /@wagmi/core@2.6.3(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
+    resolution: {integrity: sha512-hHvJkXFqfj56nAD0SH5bAHYxBItUBDIn6yGUBguMu121v6R4NxhwciEeff56lSjnKhmXjaWdJCEJ9C1YwkmDVw==}
     peerDependencies:
       '@tanstack/query-core': '>=5.0.0'
       typescript: '>=5.0.4'
@@ -10136,6 +10137,7 @@ packages:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
     dev: true
+    bundledDependencies: false
 
   /event-target-shim@5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
@@ -17849,8 +17851,8 @@ packages:
       xml-name-validator: 5.0.0
     dev: true
 
-  /wagmi@2.2.1(@tanstack/react-query@5.17.1)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
-    resolution: {integrity: sha512-lOro0KprkzANip4eV5WoeYenXo3VOWiBcri/l+yqPPpUR/CSQhBR5i04yK9JRS11CQaJp15jZRD3Amwg4Ch1ww==}
+  /wagmi@2.5.5(@tanstack/react-query@5.17.1)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
+    resolution: {integrity: sha512-U9F5+e4bFXhSvIAWaImP4oCDXnOG/7q1xnBlkWBwbGy+oWg3BBiD01BZUnkplFGu6scSZ+TPURGtOkwH0rnxBQ==}
     peerDependencies:
       '@tanstack/react-query': '>=5.0.0'
       react: '>=18'
@@ -17861,8 +17863,8 @@ packages:
         optional: true
     dependencies:
       '@tanstack/react-query': 5.17.1(react@18.2.0)
-      '@wagmi/connectors': 4.1.4(@wagmi/core@2.2.1)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
-      '@wagmi/core': 2.2.1(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
+      '@wagmi/connectors': 4.1.12(@wagmi/core@2.6.3)(react-dom@18.2.0)(react-native@0.73.1)(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
+      '@wagmi/core': 2.6.3(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
       react: 18.2.0
       typescript: 5.3.3
       use-sync-external-store: 1.2.0(react@18.2.0)
