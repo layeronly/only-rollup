@@ -153,8 +153,8 @@ importers:
         specifier: ^4.5.1
         version: 4.5.1
       dotenv:
-        specifier: ^16.3.1
-        version: 16.3.1
+        specifier: ^16.4.4
+        version: 16.4.4
       ethers:
         specifier: ^5.7.2
         version: 5.7.2
@@ -196,8 +196,8 @@ importers:
         specifier: ^11.1.0
         version: 11.1.0
       dotenv:
-        specifier: ^16.3.1
-        version: 16.3.1
+        specifier: ^16.4.4
+        version: 16.4.4
       envalid:
         specifier: ^8.0.0
         version: 8.0.0
@@ -6576,7 +6576,7 @@ packages:
       change-case: 4.1.2
       chokidar: 3.5.3
       dedent: 0.7.0
-      dotenv: 16.3.1
+      dotenv: 16.4.4
       dotenv-expand: 10.0.0
       esbuild: 0.16.17
       execa: 6.1.0
@@ -9166,6 +9166,11 @@ packages:
   /dotenv@16.3.1:
     resolution: {integrity: sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==}
     engines: {node: '>=12'}
+    dev: true
+
+  /dotenv@16.4.4:
+    resolution: {integrity: sha512-XvPXc8XAQThSjAbY6cQ/9PcBXmFoWuw1sQ3b8HqUCR6ziGXjkTi//kB9SWa2UwqlgdAIuRqAa/9hVljzPehbYg==}
+    engines: {node: '>=12'}
 
   /dotenv@8.6.0:
     resolution: {integrity: sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g==}
@@ -10136,6 +10141,7 @@ packages:
       is-hex-prefixed: 1.0.0
       strip-hex-prefix: 1.0.0
     dev: true
+    bundledDependencies: false
 
   /event-target-shim@5.0.1:
     resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
