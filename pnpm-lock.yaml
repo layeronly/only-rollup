@@ -309,8 +309,8 @@ importers:
         specifier: ^2.0.3
         version: 2.0.3(typescript@5.3.3)
       '@wagmi/core':
-        specifier: ^2.1.1
-        version: 2.1.1(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
+        specifier: ^2.10.5
+        version: 2.10.5(react@18.2.0)(typescript@5.3.3)(viem@2.0.3)
       abitype:
         specifier: ^0.10.3
         version: 0.10.3(typescript@5.3.3)
@@ -6639,8 +6639,8 @@ packages:
       - zod
     dev: true
 
-  /@wagmi/core@2.1.1(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
-    resolution: {integrity: sha512-ifQ1BvYCyetjIH2+Xxhz+V4oJ2d+V1zDei5lHB2D7MdhP5umw3z2fbbTFg05ixkc58hCG8obehiiktQs6ma94Q==}
+  /@wagmi/core@2.10.5(react@18.2.0)(typescript@5.3.3)(viem@2.0.3):
+    resolution: {integrity: sha512-BvqFEdJTTepOKtPnacq7oE8gUZ4llzdxmPSBEYePArd1dvP/e5gwwfS5/8VBcvDvGcoX4N0lw5A4NNOJKL0Q+A==}
     peerDependencies:
       '@tanstack/query-core': '>=5.0.0'
       typescript: '>=5.0.4'
@@ -15740,6 +15740,7 @@ packages:
 
   /rimraf@2.6.3:
     resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
     dependencies:
       glob: 7.2.3
